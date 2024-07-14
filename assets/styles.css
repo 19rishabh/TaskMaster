@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1{
+    font-family: Georgia, serif;
+    text-align:center;
+}
+
+.light{
+    color: black;
+    background-color: white;
+}
+
+.dark {
+    color: white;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+}
+
+button {
+    margin-left: 10px;
+}
+
+main{
+    flex:1;
+}
+
+footer{
+    text-align:center;
+}
+
+
