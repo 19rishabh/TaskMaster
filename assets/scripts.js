@@ -100,23 +100,23 @@ document.addEventListener('DOMContentLoaded', () => {
     if (storedTheme) {
         applyTheme(storedTheme);
     }
-    if (window.location.pathname === '/index.html')
+    if (window.location.pathname === '/TaskMaster/index.html')
     {
         console.log('This code is running in index.html');
         addTasks();
         renderTasks();
     }
-    else if(window.location.pathname === '/completed.html')
+    else if(window.location.pathname === '/TaskMaster/completed.html')
     {
         console.log('This code is running in completed.html');
         renderCompletedTasks();
     }
-    else if (window.location.pathname === '/priority.html')
+    else if (window.location.pathname === '/TaskMaster/priority.html')
     {
         console.log('This code is running in priority.html');
         renderPriorityTasks();
     }
-    else if (window.location.pathname === '/settings.html')
+    else if (window.location.pathname === '/TaskMaster/settings.html')
     {
         console.log('This code is running in settings.html');
         storedTheme = localStorage.getItem('theme');
