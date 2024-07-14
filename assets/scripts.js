@@ -100,7 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
     if (storedTheme) {
         applyTheme(storedTheme);
     }
-    if (window.location.pathname === '/TaskMaster/index.html')
+    if (window.location.pathname === '/TaskMaster/index.html'  || window.location.pathname === '/TaskMaster/')
     {
         console.log('This code is running in index.html');
         addTasks();
