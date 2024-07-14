@@ -91,6 +91,7 @@ function selectTheme(){
 }
 
 document.addEventListener('DOMContentLoaded', () => {
+    console.log("content loads");
     const storedTasks = localStorage.getItem('todos');
     if (storedTasks) {
       tasks = JSON.parse(storedTasks);
